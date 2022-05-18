@@ -1,0 +1,13 @@
+.container-fluid {
+    background: hsl(0, 10%, 94%);
+}
+#pills-profile {
+    background: rgba(218, 217, 217, 0.938);
+}
+.fa-brands {
+    color:gray;
+}
+.nav-item {
+    border: none;
+    padding: 5px;
+}
