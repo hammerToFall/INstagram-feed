@@ -11,225 +11,276 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-9">
-              <a class="navbar-brand" href="#">
-                  <i class="fa-brands fa-instagram fa-lg"></i>
-                  <b><i class="text-muted">Instagram</i></b>
-              </a>
-          </div>
-          <div class="col-2">
-              <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                  data-bs-whatever="@mdo">Create a new post</button>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                  aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                              <form>
-                                  <div class="mb-3">
-                                      <textarea class="form-control" id="message-text"></textarea>
-                                      <i class="fa-solid fa-camera"></i>
-                                      <i class="fa-solid fa-location-dot"></i>
-                                  </div>
-                              </form>
-                          </div>
-                          <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                              <button type="button" class="btn btn-primary">Publish</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-1">
-              <i class="fa-solid fa-gear"></i>
-              <div class="btn-group">
-                  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      <li>
-                          <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">Log out</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="d-flex justify-content-center">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-item" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th fa-lg" style="color:#d3d3d3"></i></button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-item" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square fa-lg" style="color:#d3d3d3"></i></button>
-        </li>
-    </ul>
-</div>
-  <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div class="container">
-              <div class="row">
-                  <div class="col"><img src="https://picsum.photos/id/0/367/267" width="100%" height="100%" alt="portátil"></div>
-                  <div class="col"><img src="https://picsum.photos/id/1015/367/267" width="100%" height="100%o" alt="rio"></div>
-                  <div class="col"><img src="https://picsum.photos/id/1020/367/267" width="100%" height="100%" alt="bear"></div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col"><img src="https://picsum.photos/id/1029/367/267" width="100%" height="100%" alt="central park"></div>
-                  <div class="col"><img src="https://picsum.photos/id/1032/2880/1800" width="100%" height="100%" alt="nasa"></div>
-                  <div class="col"><img src="https://picsum.photos/id/1040/4496/3000" width="100%" height="100%"alt="Castillo"></div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col"><img src="https://picsum.photos/id/1041/5184/2916" width="100%" height="100%" alt="olas del mar"></div>
-                  <div class="col"><img src="https://picsum.photos/id/1048/5616/3744" width="100%" height="100%" alt="rascacielos"></div>
-                  <div class="col"><img src="https://picsum.photos/id/106/2592/1728" width="100%" height="100%" alt="flowers"></div>
-              </div>
-          </div>
-      </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <div class="container">
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">My first photo</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/0/367/267" width="230" alt="portátil"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card bg-light mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Río</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1015/367/267" width="230" alt="rio"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Oso</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1020/367/267" width="230" alt="bear"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Central park</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1029/367/267" width="230" alt="central park"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Nasa</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1032/2880/1800" width="230" alt="nasa"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Rachel Davis</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1040/4496/3000" width="230" alt="Castillo"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Olas del mar</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1041/5184/2916" width="230" alt="olas del mar"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">My first photo</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/1048/5616/3744" width="230" alt="rascacielos"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex justify-content-center">
-                          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                              <div class="card-header">Flores</div>
-                              <div class="card-body text-success">
-                                  <img src="https://picsum.photos/id/106/2592/1728" width="230" alt="flowers"></img>
-                              </div>
-                              <div class="card-footer">Lorem ipsum dolor sit amet.</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-      </div>
-  </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-brands fa-instagram fa-lg text-secondary"></i>
+                    <b><i class="text-muted">Instagram</i></b>
+                </a>
+            </div>
+            <div class="col-4 text-end">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">Create a new post</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                    <div class="row mx-0">
+                                        <i class="col-1 fa-solid fa-camera border border-1 rounded mb-2 me-1 py-2"></i>
+                                        <i class="col-1 fa-solid fa-location-dot border border-1 rounded mb-2 py-2"></i>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <i class="fa-solid fa-gear"></i>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-2">
+        <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-item rounded border-0" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th fa-xl"
+                        style="color:#939191"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-item rounded border-0 ms-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                        class="fas fa-square fa-xl" style="color:#939191"></i></button>
+            </li>
+        </ul>
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/0/367/267" class="card-img-top" alt="portátil">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1015/367/267" class="card-img-top" alt="río">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1020/367/267" class="card-img-top" alt="bear">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1029/367/267" class="card-img-top" alt="portátil">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1032/367/267" class="card-img-top" alt="río">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1040/367/267" class="card-img-top" alt="bear">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1041/367/267" class="card-img-top" alt="portátil">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1048/367/267" class="card-img-top" alt="río">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/106/367/267" class="card-img-top" alt="bear">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="container">
+                <div class="card mx-auto" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/0/367/267" class="card-img-top" alt="portátil">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.
+                        </p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1015/367/267" class="card-img-top" alt="río">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1020/367/267" class="card-img-top" alt="oso">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1029/367/267" class="card-img-top" alt="central park">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1032/367/267" class="card-img-top" alt="nasa">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1040/367/267" class="card-img-top" alt="Castillo">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1041/367/267" class="card-img-top" alt="olas del mar">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/1048/367/267" class="card-img-top" alt="rascacielos">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto mt-3" style="width: 25rem;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-10">My first photo</div>
+                            <div class="col-2 text-muted">12/14</div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/id/106/367/267" class="card-img-top" alt="Flores">
+                    <div class="card-body">
+                        <p class="fw-bolder">23 Likes</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente laudantium similique.</p>
+                        <div class="row">
+                            <i class=" col-11 fa-regular fa-heart text-muted"> Comment</i>
+                            <i class=" col-1 fa-solid fa-ellipsis-vertical text-muted"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 
