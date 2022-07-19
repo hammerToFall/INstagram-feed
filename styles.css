@@ -1,6 +1,15 @@
-.container-fluid {
-    background: hsl(0, 10%, 94%);
+.navbar{
+    background: rgb(230, 227, 227);
 }
 #pills-profile {
-    background: rgba(218, 217, 217, 0.938);
+    background: rgba(202, 198, 198, 0.938);
+}
+.nav-link.active{
+    background: hsl(0, 1%, 69%) !important;
+}
+.nav-link{
+    color: rgb(116, 114, 114) !important;
+}
+.container-fluid {
+    background: hsl(0, 4%, 80%);
 }
